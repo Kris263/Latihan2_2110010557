@@ -11,7 +11,7 @@ package kampus;
  */
 public class DosenBeraksi {
     public static void main(String[] args) {
-        Dosen kristian = new Dosen ("1234567 ", " Agus S.Pd ", " IPS ");
+        Dosen kristian = new Dosen ("2110010557 ", " Kristian Putra Rizal Permadi", " IPS ");
         
         System.out.println("Detail Dosen");
         System.out.println("NIDN = "+kristian.getNidn());

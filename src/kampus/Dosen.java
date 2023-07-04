@@ -16,5 +16,35 @@ public class Dosen {
         return nidn + nama + mataKuliah;
     }
     
+    public Dosen (String nidn, String nama, String mataKuliah) {
+        this.nidn = nidn;
+        this.nama = nama;
+        this.mataKuliah = mataKuliah;
+    }
+
+    public void setNidn(String nidn) {
+        this.nidn = nidn;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setMataKuliah(String mataKuliah) {
+        this.mataKuliah = mataKuliah;
+    }
+
+    public String getNidn() {
+        return nidn;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getMataKuliah() {
+        return mataKuliah;
+    }
+    
     
 }
